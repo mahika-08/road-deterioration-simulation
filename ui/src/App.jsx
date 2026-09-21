@@ -205,12 +205,7 @@ const resetSimulation1 = () => {
   ========================================================= */
 
   const roadSections = [
-    {
-      id: "R-14",
-      condition: "Good",
-      damage: false,
-      type: "normal",
-    },
+    
     {
       id: "R-15",
       condition: "Moderate",
@@ -229,12 +224,7 @@ const resetSimulation1 = () => {
       damage: true,
       type: "severe",
     },
-    {
-      id: "R-18",
-      condition: "Good",
-      damage: false,
-      type: "normal",
-    },
+
   ];
 
 

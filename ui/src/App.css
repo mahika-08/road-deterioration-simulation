@@ -765,8 +765,12 @@ transform: translateX(-50%) scaleX(-1);
 ========================================================= */
 
 .inspection-road {
-  display: grid;
-
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 25px auto;
+  display: flex;
+  ;
   grid-template-columns: repeat(5, 1fr);
 
   min-height: 230px;
@@ -808,11 +812,9 @@ transform: translateX(-50%) scaleX(-1);
 
 .road-section {
   position: relative;
-
+  flex: 1;
   min-width: 0;
-
   border-right: 2px dashed rgba(255,255,255,0.3);
-
   z-index: 2;
 }
 
