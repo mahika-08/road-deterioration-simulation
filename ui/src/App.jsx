@@ -239,18 +239,15 @@ const resetSimulation1 = () => {
 
         <div>
           <div className="logo">
-            🛣️ RoadGuard AI
+            DRIVON
           </div>
 
           <div className="subtitle">
-            AI-Based Road Deterioration Prediction & Preventive Maintenance
+            Road Deterioration Prediction System 
           </div>
         </div>
 
-        <div className="status">
-          <span className="status-dot"></span>
-          Monitoring System
-        </div>
+  
 
       </header>
 
@@ -272,31 +269,14 @@ const resetSimulation1 = () => {
             <h1>
               Detect road deterioration
               <br />
-              <span>before it becomes severe.</span>
+              <span>before it becomes severe</span>
             </h1>
 
             <p className="hero-text">
-              RoadGuard AI uses road history, traffic, rainfall,
+              Drivon uses road history, traffic, rainfall,
               road age and existing damage to predict future
               deterioration and support preventive maintenance.
             </p>
-
-          </div>
-
-
-          <div className="hero-stat">
-
-            <div className="road-number">
-              AI
-            </div>
-
-            <div className="road-label">
-              Predictive Monitoring
-            </div>
-
-            <div className="risk-badge">
-              ACTIVE
-            </div>
 
           </div>
 
@@ -318,12 +298,12 @@ const resetSimulation1 = () => {
               </p>
 
               <h2>
-                🚗 Vehicle Journey & Predictive Maintenance
+                Vehicle Journey & Predictive Maintenance
               </h2>
 
               <p className="section-description">
                 Follow a vehicle travelling through a road section
-                while RoadGuard AI monitors its deterioration.
+                while the model monitors its deterioration
               </p>
 
             </div>
@@ -432,23 +412,6 @@ const resetSimulation1 = () => {
 
           <div className="event-area">
 
-            {simulation1Stage === 0 && (
-              <div className="event neutral">
-                <div className="event-icon">🚗</div>
-
-                <div>
-                  <h3>
-                    Vehicle ready
-                  </h3>
-
-                  <p>
-                    Start the simulation to begin the road journey.
-                  </p>
-                </div>
-              </div>
-            )}
-
-
             {simulation1Stage === 1 && (
               <div className="event normal">
 
@@ -502,7 +465,7 @@ const resetSimulation1 = () => {
 
                 <div>
                   <h3>
-                    AI predicts high deterioration risk
+                    High deterioration risk
                   </h3>
 
                   <p>
@@ -528,7 +491,7 @@ const resetSimulation1 = () => {
                   </h3>
 
                   <p>
-                    Road Section R-17 has been flagged for inspection.
+                    Road Section R-17 has been flagged for inspection
                   </p>
                 </div>
 
@@ -891,7 +854,7 @@ const resetSimulation1 = () => {
                 </strong>
 
                 <span>
-                  RoadGuard AI is analyzing road-condition data.
+                  Drivon is analyzing road-condition data.
                 </span>
               </div>
             )}
@@ -987,7 +950,7 @@ const resetSimulation1 = () => {
         <section className="explanation">
 
           <p className="eyebrow">
-            HOW ROADGUARD AI WORKS
+            HOW DRIVON WORKS
           </p>
 
           <h2>
@@ -1036,7 +999,7 @@ const resetSimulation1 = () => {
               <span>04</span>
               <strong>Maintain</strong>
               <p>
-                Officials inspect and perform preventive maintenance.
+                Officials inspect and perform preventive maintenance
               </p>
             </div>
 
@@ -1047,9 +1010,7 @@ const resetSimulation1 = () => {
       </main>
 
 
-      <footer>
-        RoadGuard AI • Educational predictive road-maintenance simulation
-      </footer>
+     
 
     </div>
   );
